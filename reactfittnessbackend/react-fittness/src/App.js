@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Profile from './Components/Profile'
+import Profile from './Components/Profile' /*imported profile component */
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Profile />
+      <Profile /> 
     </div>
   );
 }
