@@ -14,10 +14,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.views.generic import TemplateView
+from . import views
+from .views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', TemplateView.as_view(template_name='index.html'))
+    path('', TemplateView.as_view(template_name='index.html')), # points to the templates in react
+    path('profile/', TemplateView.as_view(template_name='profile.html')),
+    path('api', views.profileviewapi.as_view()),
+    path('api-auth/', include('rest_framework.urls')), #django rest framwork default
+    path('api/list', views.profilelistapi.as_view()),
+    path('api/<pk>', views.profileretrieveapi.as_view()),
+
 ]

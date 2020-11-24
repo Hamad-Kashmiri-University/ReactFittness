@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from './Components/Profile'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload and hello and yo.
+          Edit <code>src/App.js</code> and save to reload and hello.
         </p>
         <a
           className="App-link"
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Profile />
     </div>
   );
 }
