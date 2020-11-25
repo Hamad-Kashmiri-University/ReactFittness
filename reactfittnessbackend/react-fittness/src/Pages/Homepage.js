@@ -1,9 +1,20 @@
-
+import Carousel from '../Components/Homecarousel'
+import reactlogolarge from '../Assets/reactlogolarge.svg'
+import '../css/home.css'
+import hometext from '../Assets/hometext.png'
 function Homepage() {
   return (
     <div>
-      <h1> home </h1>
+      <div>
+      <img className = "largelogo" src={reactlogolarge} alt="not found"></img>
       </div>
+      <div>
+      <img className = "text" src={hometext} alt = "not found"></img>
+    </div>
+    <div>
+      <Carousel />
+      </div>    
+        </div>
   );
 }
 

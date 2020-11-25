@@ -1,0 +1,42 @@
+.largelogo {
+    margin-left: 300px;
+    padding: 50px;
+    animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+ .text {
+     margin-left: 200px;
+
+ }
+ .button1 {
+    height: 61px;
+    width: 61px;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    margin-left: 328px;
+    margin-top: -53px;
+    border: 0.5px solid rgb(112,112,112);
+
+  }
+
+.button2 {
+    height: 61px;
+    width: 61px;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    margin-left: 473px;
+    margin-top: -63px;
+    border: 0.5px solid rgb(112,112,112);
+  }
+
+  @keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }

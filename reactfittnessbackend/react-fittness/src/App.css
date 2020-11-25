@@ -2,4 +2,5 @@ body {
   background-image: url(./Assets/bgcomponent.svg);
   background-color: #333333;
   font-family: Roboto;
+  overflow-x: hidden;
 }

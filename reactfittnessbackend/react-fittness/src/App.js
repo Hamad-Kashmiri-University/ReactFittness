@@ -13,9 +13,6 @@ function App() {
   return(
     <Router>
     <Header />
-    <button><Link to="/profile">Profile</Link></button>
-    <button><Link to="/diet">Diet</Link></button>
-    <button><Link to="/home">Home</Link></button>
     <Switch>
       <Route path='/profile' exact component={Profilepage} /> 
       <Route path='/' exact component={Homepage} />
