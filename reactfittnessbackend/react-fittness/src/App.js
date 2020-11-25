@@ -1,27 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-import Profile from './Components/Profile' /*imported profile component */
+import React from 'react';
+import {Route, Switch, Link} from "react-router-dom"
+import {BrowserRouter as Router} from "react-router-dom" /* as router  just lets us rename browser router to something nicely */
+import Homepage from "./Pages/Homepage";
+import Dietpage from "./Pages/Dietpage";
+import Mappage from "./Pages/Mappage";
+import Profilepage from "./Pages/Profilepage";
+import Socialpage from "./Pages/Socialpage";
+import './App.css'
+import Header from './Components/Header'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload and hello.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Profile /> 
-    </div>
-  );
-}
+  return(
+    <Router>
+    <Header />
+    <button><Link to="/profile">Profile</Link></button>
+    <button><Link to="/diet">Diet</Link></button>
+    <button><Link to="/home">Home</Link></button>
+    <Switch>
+      <Route path='/profile' exact component={Profilepage} /> 
+      <Route path='/' exact component={Homepage} />
+      <Route path='/diet' exact component={Dietpage} /> 
+      <Route path='/social' exact component={Socialpage} /> 
+      <Route path='/map' exact component={Mappage} /> 
 
-export default App;
+      </Switch>
+    </Router>
+  );
+  }
+  export default App
+  /* app.js is our base, so only has components on every page like the nav */
+  /* browser router for different routes for pages, switch ensures no double mapping for routes with the same name eg / and /profile match first char */

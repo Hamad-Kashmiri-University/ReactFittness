@@ -36,9 +36,8 @@ class Profile extends React.Component {
  /* above function uses cors library to allow the above url to be connected to where it would otherwise be blocked */      
  /* above function makes an api call to me api for the data for th profile */   
     render(){
-        console.log('hi:', this.state.profilelist)
         var profiles = this.state.profilelist; /*set the profilelist to a var */
-        console.log('bye:', profiles)
+        console.log('profile:', profiles)
 
         
         return(
@@ -46,10 +45,10 @@ class Profile extends React.Component {
             {this.state.profilelist.map(function(profile, index){
                 return(
                     <div key={index}>
-                        <span>{ profile.name } </span>
-                        <span>Heart rate: { profile.maxHR } </span>
-                        <span>steps: { profile.stepcount } </span>
-                        <span>weight: { profile.weight } </span>
+                        <h1>{ profile.name } </h1>
+                        <h1>Heart rate: { profile.maxHR } </h1>
+                        <h1>steps: { profile.stepcount } </h1>
+                        <h1>weight: { profile.weight } </h1>
                     </div>
 /* map function takes the data from the data list we got from the api and loops through it usng pk and then we can show the data  */                 
                 )
@@ -58,5 +57,4 @@ class Profile extends React.Component {
         )
     }
 };
-
-export default Profile
+export default Profile;

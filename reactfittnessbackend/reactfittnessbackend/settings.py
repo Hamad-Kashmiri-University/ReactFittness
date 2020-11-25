@@ -141,5 +141,6 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "http://localhost:3001",
 ]
 #allows the above url to connect to the api
