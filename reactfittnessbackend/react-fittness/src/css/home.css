@@ -14,6 +14,8 @@
  .text {
      margin-left: 200px;
 
+/* the above is the animation for the spinning logo  */
+
  }
  .button1 {
     height: 61px;
@@ -35,6 +37,7 @@
     margin-top: -63px;
     border: 0.5px solid rgb(112,112,112);
   }
+  /* this css creates our buttons for our carousel */
 
   @keyframes spin {
     from {transform:rotate(0deg);}
