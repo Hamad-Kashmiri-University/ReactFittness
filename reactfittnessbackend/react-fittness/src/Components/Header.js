@@ -4,8 +4,7 @@ import twitterlogo from '../Assets/twitterlogo.png'
 import reactlogo from '../Assets/reactlogo.png'
 import instalogo from '../Assets/instalogo.png'
 import profilepic from '../Assets/profilepic.svg'
-
-
+// above are the imports 
 function Header() {
   return (
     <section>   
@@ -22,6 +21,7 @@ function Header() {
             <div className="logo">
                 <img className="fb"src={fblogo} alt="not found" />
             </div>
+            {/* call the images we imported in the src */}
             <nav>
                 <ul>
                     <li><a href="/sign-in">Log Out</a></li>
