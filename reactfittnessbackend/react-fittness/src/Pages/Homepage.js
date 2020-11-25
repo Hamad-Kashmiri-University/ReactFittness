@@ -17,5 +17,6 @@ function Homepage() {
         </div>
   );
 }
+// this sets up out logo and text for the home page and calls the carousel component to render in the homepage
 
 export default Homepage;

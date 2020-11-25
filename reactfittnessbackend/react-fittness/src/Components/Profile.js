@@ -1,5 +1,17 @@
 import React from 'react';
-
+import {Line, Radar} from 'react-chartjs-2'
+// const Barchart = () => {
+//     return <div>
+//         <Bar
+//             height = {200}
+//             width={600}
+//             data={{
+//                 labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+//                 data: [12, 19, 3, 5, 2, 3],
+//             }}
+//         />
+//     </div>
+// }
 class Profile extends React.Component {
     constructor(props){
         super(props);
@@ -35,6 +47,7 @@ class Profile extends React.Component {
     }
  /* above function uses cors library to allow the above url to be connected to where it would otherwise be blocked */      
  /* above function makes an api call to me api for the data for th profile */   
+ 
     render(){
         var profiles = this.state.profilelist; /*set the profilelist to a var */
         console.log('profile:', profiles)
@@ -45,10 +58,36 @@ class Profile extends React.Component {
             {this.state.profilelist.map(function(profile, index){
                 return(
                     <div key={index}>
-                        <h1>{ profile.name } </h1>
-                        <h1>Heart rate: { profile.maxHR } </h1>
-                        <h1>steps: { profile.stepcount } </h1>
-                        <h1>weight: { profile.weight } </h1>
+                    <h1>{ profile.name } </h1>
+                    <div>
+                        <Radar
+                            height = {200}
+                            width = {200}
+                            options={{
+                                maintainAspectRatio:false
+                            }}
+                    
+                        /> 
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+                        <Line
+                            height = {200}
+                            width={600}
+                            options={{
+                                maintainAspectRatio:false
+                            }}
+                            data={{
+                                labels: [''], 
+                                datasets: [{
+                                   
+                                }]
+                            }}
+                        />
+                        
+                    </div>
                     </div>
 /* map function takes the data from the data list we got from the api and loops through it usng pk and then we can show the data  */                 
                 )

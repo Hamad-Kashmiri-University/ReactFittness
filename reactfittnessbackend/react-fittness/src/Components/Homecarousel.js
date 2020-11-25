@@ -43,7 +43,8 @@ export default class Homecarousel extends Component {
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
-
+// generate a list of carousel components with uuids, (unique keys), and using map which is like a for loop apply a slide animation and setState so the components slide 
+// to the correct place onclick
 
   render() {
     return (
@@ -54,6 +55,7 @@ export default class Homecarousel extends Component {
           showNavigation={this.state.showNavigation}
           animationConfig={this.state.config}
         />
+          {/* set the carousel settings to those specified in the state at the top of the fle */}
         <div className="button1"></div>
         <div className="button2"></div>
  

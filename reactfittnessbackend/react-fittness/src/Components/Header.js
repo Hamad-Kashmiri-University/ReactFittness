@@ -10,7 +10,7 @@ function Header() {
     <section>   
         <div id="header" className="header">
             <div className="logo">
-                <img className="react" src={reactlogo} alt="not found" />
+                <a href="/"><img className="react" src={reactlogo} alt="not found" /></a>
             </div>
             <div className="logo">
                 <img className="insta"src={instalogo} alt="not found" />

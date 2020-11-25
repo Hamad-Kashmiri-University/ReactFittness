@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'react-fittness/build'),  # SETS THE PATH TO RENDER OUR TEMPLATES FROM THE FRONTEND
+            os.path.join(BASE_DIR, 'react-fittness/public'),  # SETS THE PATH TO RENDER OUR TEMPLATES FROM THE FRONTEND
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIR = [
-    os.path.join(BASE_DIR, 'react-fittness/build/static'), #accessing static files from frontend
+    os.path.join(BASE_DIR, 'react-fittness/build/public'), #accessing static files from frontend
 
 ]
 
