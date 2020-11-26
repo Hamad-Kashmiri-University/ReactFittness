@@ -1,14 +1,16 @@
 .largelogo {
     margin-left: 300px;
     padding: 50px;
-    animation: rotation 5s infinite linear;
+    transition: 5s;
+    animation: rotation 10s infinite linear;
+    
 }
 @keyframes rotation {
     from {
       transform: rotate(0deg);
     }
     to {
-      transform: rotate(359deg);
+      transform: rotate(360deg);
     }
   }
  .text {
@@ -20,26 +22,42 @@
  .button1 {
     height: 61px;
     width: 61px;
-    background-color: rgba(97, 219, 251, 0.05);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     margin-left: 328px;
-    margin-top: -53px;
-    border: 0.5px solid rgb(112,112,112);
+    margin-top: -50px;
 
   }
 
 .button2 {
     height: 61px;
     width: 61px;
-    background-color: rgba(97, 219, 251, 0.05);
+    background-color: rgb(255, 255, 255,0.1);
     border-radius: 50%;
     margin-left: 473px;
-    margin-top: -63px;
-    border: 0.5px solid rgb(112,112,112);
+    margin-top: -61px;
   }
   /* this css creates our buttons for our carousel */
 
-  @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+/* 
+.largelogo:hover {
+  animation: rotation 0.5s infinite linear;
+} */
+
+@keyframes slideInFromTop {
+  0% {
+      transform: translateX(-100%);
   }
+  100% {
+      transform: translateX(0);
+  }
+}
+#transition {  
+  /* This section calls the slideInFromTop animation we defined above for text transition on home page */
+  animation: 1s ease-out slideInFromTop;
+}
+
+#caro{  
+  /* This section calls the slideInFromTop animation we defined above for carousel on home page */
+  animation: 1s ease-out slideInFromTop;
+}

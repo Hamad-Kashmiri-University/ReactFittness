@@ -48,7 +48,7 @@ export default class Homecarousel extends Component {
 
   render() {
     return (
-      <div style={{ width: "45%", height: "500px", margin: "0 auto", float: "right", marginRight: 50, marginTop: -650 }}>
+      <div id="caro" style={{ width: "45%", height: "500px", margin: "0 auto", float: "right", marginRight: 50, marginTop: -650 }}>
         <Carousel
           slides={this.slides}
           offsetRadius={this.state.offsetRadius}

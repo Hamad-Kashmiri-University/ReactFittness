@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.468" height="48.468" viewBox="0 0 48.468 48.468">
+  <defs>
+    <filter id="utensils-solid" x="0" y="0" width="48.468" height="48.468" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#utensils-solid)">
+    <path id="utensils-solid-2" data-name="utensils-solid" d="M15.227.9a59.873,59.873,0,0,1,1.179,7.665c0,3.112-2.036,5.332-5.046,6.224L12.3,28.961a1.6,1.6,0,0,1-1.758,1.506H5.859A1.6,1.6,0,0,1,4.1,28.961l.945-14.169C2.029,13.9,0,11.674,0,8.568A59.7,59.7,0,0,1,1.179.9C1.414-.3,4.5-.323,4.687.969v8.4c.1.2,1.106.19,1.172,0,.1-1.506.579-8.283.586-8.438C6.687-.3,9.719-.3,9.953.933c.015.161.483,6.933.586,8.438.066.19,1.084.2,1.172,0V.969C11.9-.317,14.992-.3,15.227.9Zm8.73,17-1.1,11.015a1.584,1.584,0,0,0,1.75,1.547h4.1a1.615,1.615,0,0,0,1.758-1.428V1.427A1.619,1.619,0,0,0,28.71,0C22.668,0,12.495,10.621,23.957,17.9Z" transform="translate(9 8)" fill="#61dbfb" opacity="0.8"/>
+  </g>
+</svg>

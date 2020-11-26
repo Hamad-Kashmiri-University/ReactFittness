@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch, Link} from "react-router-dom"
+import {Route, Switch} from "react-router-dom"
 import {BrowserRouter as Router} from "react-router-dom" /* as router  just lets us rename browser router to something nicely */
 import Homepage from "./Pages/Homepage";
 import Dietpage from "./Pages/Dietpage";
@@ -8,10 +8,13 @@ import Profilepage from "./Pages/Profilepage";
 import Socialpage from "./Pages/Socialpage";
 import './App.css'
 import Header from './Components/Header'
+import Drawer from './Components/Drawer'
+// importing our common components for each page ie header and drawer/sidebar
 
 function App() {
   return(
     <Router>
+    <Drawer />
     <Header />
     <Switch>
       <Route path='/profile' exact component={Profilepage} /> 

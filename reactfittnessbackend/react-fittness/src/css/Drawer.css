@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 1px;
+}
+ul li {
+    
+    padding-bottom: 100px;
+    padding-left: 0px;  
+    padding-right: 40px;  
+}
+
+body {
+    font-family: Roboto;
+}
+.icontext {
+    margin-top: 7px;
+}
+.iconbg {
+    height: 55px !important;
+    width: 55px !important;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    position: fixed;
+    background-image: url(../Assets/profileicon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 0.3s;
+    color: rgba(0,0,0,0);
+    font-size: 20px;
+  }
+
+.iconbg2 {
+    height: 55px !important;
+    width: 55px ;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    position: fixed;
+    background-image: url(../Assets/dieticon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 0.3s;
+    color: rgba(0,0,0,0);
+    font-size: 20px;
+  }
+
+.iconbg3 {
+    height: 55px !important;
+    width: 55px !important;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    position: fixed;
+    background-image: url(../Assets/mapicon.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: 0.3s; 
+    color: rgba(0,0,0,0);
+    font-size: 20px;
+    
+}
+
+.iconbg4 {
+    height: 55px !important;
+    width: 55px !important;
+    background-color: rgba(97, 219, 251, 0.05);
+    border-radius: 50%;
+    position: fixed;
+    background-image: url(../Assets/socialicon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;    
+    transition: 0.3s;
+    color: rgba(0,0,0,0);
+    font-size: 20px;
+  }
+/* each of the above icon bgs represents a background for the sidebar component, all 
+appropriately styled */
+.iconbg:hover {
+    background-image: none;
+    width: 90px !important;
+    height: 45px !important;
+    border-radius: 45%;
+    color: white;
+    background-color: rgba(97, 219, 251, 0.3);
+}
+
+.iconbg2:hover {
+    background-image: none;
+    width: 80px;
+    height: 45px !important;
+    border-radius: 45%;
+    color: white;
+    background-color: rgba(97, 219, 251, 0.3);
+}
+.iconbg3:hover {
+    background-image: none;
+    width: 70px !important;
+    height: 45px !important;
+    border-radius: 45%;
+    color: white;
+    background-color: rgba(97, 219, 251, 0.3)
+}
+.iconbg4:hover {
+    background-image: none;
+    width: 100px !important;
+    height: 45px !important;
+    border-radius: 45%;
+    color: white;
+    background-color: rgba(97, 219, 251, 0.3);
+    opacity: 1 !important;
+}
+/* above our the hover states for the sidebar buttons */
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+ #drawer {  
+    /* This section calls the slideInFromTop animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+ }
+ /* this is the page transition animation */
