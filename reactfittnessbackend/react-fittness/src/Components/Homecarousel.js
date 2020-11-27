@@ -13,6 +13,7 @@ export default class Homecarousel extends Component {
     showNavigation: true,
     config: config.gentle
   };
+  // store the library carousel functions in a state variable to be manipulated when we need
 
   slides = [
     {
@@ -58,7 +59,7 @@ export default class Homecarousel extends Component {
           {/* set the carousel settings to those specified in the state at the top of the fle */}
         <div className="button1"></div>
         <div className="button2"></div>
- 
+      {/* buttons styling */}
       </div>
       
     );
