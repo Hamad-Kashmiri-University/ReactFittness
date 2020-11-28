@@ -67,3 +67,8 @@ color: white;
     /* This section calls the slideInFromTop animation we defined above for carousel on home page */
     animation: 1s ease-out slideInFromTopprofile;
   }
+
+
+body {
+    font-family: Roboto;
+}

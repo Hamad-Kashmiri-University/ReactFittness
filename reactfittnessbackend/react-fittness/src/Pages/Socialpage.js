@@ -1,7 +1,12 @@
+import React from 'react'
+// import Ranking from '../Components/Ranking'
+import RankingContainer from '../Components/RankingContainer'
+
 function Socialpage() {
     return (
       <div> 
-        <h1> Ranking </h1>
+      {/* <Ranking /> */}
+      <RankingContainer />
         </div>
     );
   }

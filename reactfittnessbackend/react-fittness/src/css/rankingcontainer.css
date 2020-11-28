@@ -1,0 +1,99 @@
+.container {
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+
+ul li div {
+    display: inline-block;
+}
+.leftside {
+    margin-top: 18px;
+}
+
+.rankheader {
+    margin-left: 145px;
+    margin-bottom: -60px;
+}
+
+.rightside {
+    margin-left: 800px;
+}
+.facecontainer {
+    margin-left: 40px;
+    margin-top: -80px;
+    margin-bottom: -30px;
+    
+    
+}
+
+
+
+.blockbg {
+    height: 657px;
+    width: 633px;
+    background-color: rgba(51, 74, 82, 0.3);
+    border-radius: 6%;
+    position: fixed;
+    border: 1px solid rgba(112,112,112,0.3);
+}
+
+.siderank {
+    margin-bottom: -50px !important;
+}
+
+.rank1 {
+    margin-bottom: 50px;
+}
+
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+@keyframes headerfloat {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.avatar {
+    width: 144px;
+    height: 143px;
+    border-radius: 50%;
+ 	overflow: hidden;
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    float: center;
+
+
+}
+.avatar img {
+    width: 100%;
+    height: 105%;
+}
+
+.leaderboard {
+	margin-left: 45px;
+	margin-top: 30px;
+}
