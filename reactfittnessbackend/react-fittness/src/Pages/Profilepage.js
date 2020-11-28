@@ -1,10 +1,10 @@
-import Profile from '../Components/Profile' /*imported profile component */
+import Profile from '../Containers/Profile' /*imported profile container that fetches api data */
+import '../css/profile.css'
 
 function Profilepage() {
   return (
     <div>
       <Profile /> 
-      <h1> profile </h1>
       </div>
   );
 }

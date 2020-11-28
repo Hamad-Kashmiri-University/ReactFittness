@@ -6,4 +6,4 @@ class LeadSerializer(serializers.ModelSerializer):
         model = profile
         fields = ('name','maxHR','stepcount','weight')
 
-#serialiser lets us convert json into a model for the api
+#serialiser lets us convert database table information into readable json for the api

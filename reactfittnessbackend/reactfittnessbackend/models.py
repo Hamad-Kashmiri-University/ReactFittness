@@ -10,4 +10,4 @@ class profile(models.Model):
         return self.name
     
 
-#Example of a table in our db to be used in profile page
+#Example of a table in our db to be used in profile page, we use this table to connect to the api

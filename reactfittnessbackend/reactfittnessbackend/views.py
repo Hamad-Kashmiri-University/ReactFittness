@@ -16,4 +16,4 @@ class profileretrieveapi(generics.RetrieveAPIView):
     serializer_class = LeadSerializer
 #get api view
 
-# this allows us to get and post data 
+# this allows us to get and post data to the api

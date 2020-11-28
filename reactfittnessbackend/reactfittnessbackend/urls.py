@@ -29,3 +29,5 @@ urlpatterns = [
     path('api/<pk>', views.profileretrieveapi.as_view()),
 
 ]
+
+# the urls file is for the url routes for the api and admin pages

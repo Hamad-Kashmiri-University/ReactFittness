@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370" height="390" viewBox="0 0 370 390">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="334" height="300" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#61dbfb"/>
+      <stop offset="1" stop-color="#316e7e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.941" y1="0.5" x2="0.014" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff7d00"/>
+      <stop offset="1" stop-color="#6d3c0d"/>
+    </linearGradient>
+  </defs>
+  <g id="bargraph" transform="translate(-1116 -65)">
+    <g id="background_bars" data-name="background bars" transform="translate(1133 83)" opacity="0.77" clip-path="url(#clip-path)">
+      <g transform="translate(-1141 -109)">
+        <rect id="Rectangle_266" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-1091 -109)">
+        <rect id="Rectangle_266-2" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-1041 -109)">
+        <rect id="Rectangle_266-3" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-991 -109)">
+        <rect id="Rectangle_266-4" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-941 -109)">
+        <rect id="Rectangle_266-5" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-891 -109)">
+        <rect id="Rectangle_266-6" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+      <g transform="translate(-841 -109)">
+        <rect id="Rectangle_266-7" data-name="Rectangle 266" width="27" height="300" rx="13.5" transform="translate(1141 109)" opacity="0.34"/>
+      </g>
+    </g>
+    <text id="Mon" transform="translate(1134 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Mon</tspan></text>
+    <text id="Tue" transform="translate(1187 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Tue</tspan></text>
+    <text id="Wed" transform="translate(1236 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Wed</tspan></text>
+    <text id="Thu" transform="translate(1289 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Thu</tspan></text>
+    <text id="Fri" transform="translate(1340 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Fri</tspan></text>
+    <text id="Sat" transform="translate(1389 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Sat</tspan></text>
+    <text id="Sun" transform="translate(1438 387)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Sun</tspan></text>
+    <path id="Path_727" data-name="Path 727" d="M13.5,0C20.956,0,27,5.058,27,11.3V239.774c0,6.24-6.044,11.3-13.5,11.3S0,246.014,0,239.774V11.3C0,5.058,6.044,0,13.5,0Z" transform="translate(1133 131.928)" fill="url(#linear-gradient)"/>
+    <path id="Path_729" data-name="Path 729" d="M13.5,0C20.956,0,27,4.242,27,9.476V201.094c0,5.233-6.044,9.476-13.5,9.476S0,206.327,0,201.094V9.476C0,4.242,6.044,0,13.5,0Z" transform="translate(1183 173.431)" fill="url(#linear-gradient)"/>
+    <path id="Path_731" data-name="Path 731" d="M13.5,0C20.956,0,27,5.463,27,12.2V258.97c0,6.739-6.044,12.2-13.5,12.2S0,265.709,0,258.97V12.2C0,5.463,6.044,0,13.5,0Z" transform="translate(1333 112.827)" fill="url(#linear-gradient)"/>
+    <path id="Path_733" data-name="Path 733" d="M13.5,0C20.956,0,27,4.858,27,10.851V230.29c0,5.993-6.044,10.851-13.5,10.851S0,236.283,0,230.29V10.851C0,4.858,6.044,0,13.5,0Z" transform="translate(1433 142.859)" fill="url(#linear-gradient)"/>
+    <path id="Path_734" data-name="Path 734" d="M13.5,0C20.956,0,27,4.619,27,10.317V218.946c0,5.7-6.044,10.317-13.5,10.317S0,224.644,0,218.946V10.317C0,4.619,6.044,0,13.5,0Z" transform="translate(1233 153.737)" fill="url(#linear-gradient)"/>
+    <path id="Path_735" data-name="Path 735" d="M13.5,0C20.956,0,27,4.263,27,9.521V202.049c0,5.258-6.044,9.521-13.5,9.521S0,207.307,0,202.049V9.521C0,4.263,6.044,0,13.5,0Z" transform="translate(1383 172.431)" fill="url(#linear-gradient)"/>
+    <path id="Path_736" data-name="Path 736" d="M13.5,0C20.956,0,27,3.394,27,7.58v153.29c0,4.186-6.044,7.58-13.5,7.58S0,165.057,0,160.871V7.58C0,3.394,6.044,0,13.5,0Z" transform="translate(1283 214.549)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_267" data-name="Rectangle 267" width="308" height="9" rx="4.5" transform="translate(1116 444)" opacity="0.34"/>
+    <rect id="Rectangle_268" data-name="Rectangle 268" width="242" height="9" rx="4.5" transform="translate(1116 444)" fill="url(#linear-gradient-8)"/>
+    <text id="_8600_steps_" data-name="8600 steps " transform="translate(1430 440)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">8600 steps </tspan></text>
+    <text id="_8326_" data-name="8326 " transform="translate(1133 65)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">8326 </tspan></text>
+    <text id="_6020" data-name="6020" transform="translate(1183 65)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">6020</tspan></text>
+    <text id="_7100" data-name="7100" transform="translate(1233 66)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">7100</tspan></text>
+    <text id="_5320" data-name="5320" transform="translate(1283 66)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">5320</tspan></text>
+    <text id="_9100" data-name="9100" transform="translate(1333 67)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">9100</tspan></text>
+    <text id="_6900" data-name="6900" transform="translate(1383 67)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">6900</tspan></text>
+    <text id="_8326_2" data-name="8326 " transform="translate(1433 67)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">8326 </tspan></text>
+    <text id="Daily_Goal:_10000" data-name="Daily Goal: 10000" transform="translate(1259 420)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Daily Goal: 10000</tspan></text>
+  </g>
+</svg>

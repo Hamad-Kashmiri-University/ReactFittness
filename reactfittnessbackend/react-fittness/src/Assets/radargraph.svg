@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="397" height="366" viewBox="0 0 397 366">
+  <g id="radargraph" transform="translate(-335 -364)">
+    <g id="Path_718" data-name="Path 718" transform="translate(392 412.344)" fill="none" opacity="0.56">
+      <path d="M0,39.932,140.114-29.742,280.656,39.932V180.489L140.328,250.914,0,180.489Z" stroke="none"/>
+      <path d="M 140.1150207519531 -28.625244140625 L 1 40.55133056640625 L 1 179.8720855712891 L 140.327880859375 249.7952270507813 L 279.65576171875 179.8720855712891 L 279.65576171875 40.55216979980469 L 140.1150207519531 -28.625244140625 M 140.1143493652344 -29.74171447753906 L 280.65576171875 39.93179321289063 L 280.65576171875 180.4890747070313 L 140.327880859375 250.9140777587891 L 0 180.4890747070313 L 0 39.93179321289063 L 140.1143493652344 -29.74171447753906 Z" stroke="none" fill="#646464"/>
+    </g>
+    <g id="Path_719" data-name="Path 719" transform="translate(441.918 462.262)" fill="none" opacity="0.56">
+      <path d="M0,15.127,90.231-29.742l90.506,44.869v90.517L90.369,151,0,105.644Z" stroke="none"/>
+      <path d="M 90.23204803466797 -28.62522888183594 L 0.9999847412109375 15.74646759033203 L 0.9999847412109375 105.0265197753906 L 90.368896484375 149.8772277832031 L 179.7378082275391 105.0265197753906 L 179.7378082275391 15.74730682373047 L 90.23204803466797 -28.62522888183594 M 90.23136901855469 -29.74171447753906 L 180.7378082275391 15.12691497802734 L 180.7378082275391 105.6435317993164 L 90.368896484375 150.99609375 L -1.52587890625e-05 105.6435317993164 L -1.52587890625e-05 15.12691497802734 L 90.23136901855469 -29.74171447753906 Z" stroke="none" fill="#646464"/>
+    </g>
+    <g id="Path_720" data-name="Path 720" transform="translate(486.812 508.156)" fill="none" opacity="0.56">
+      <path d="M0-7.438l11.7-5.817L44.854-29.742l44.99,22.3v45L44.922,60.1,0,37.558Z" stroke="none"/>
+      <path d="M 44.85442733764648 -28.6252384185791 L 12.14313507080078 -12.35915184020996 L 1 -6.818094253540039 L 1 36.9409065246582 L 44.92212295532227 58.98368453979492 L 88.84424591064453 36.9409065246582 L 88.84424591064453 -6.817243576049805 L 44.85442733764648 -28.6252384185791 M 44.853759765625 -29.74171257019043 L 89.84424591064453 -7.437639236450195 L 89.84424591064453 37.55791091918945 L 44.92212295532227 60.1025505065918 L 0 37.55791091918945 L 0 -7.437639236450195 L 11.69788360595703 -13.25454902648926 L 44.853759765625 -29.74171257019043 Z" stroke="none" fill="#646464"/>
+    </g>
+    <line id="Line_7" data-name="Line 7" x2="280" y2="140" transform="translate(392.5 452.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.56"/>
+    <line id="Line_8" data-name="Line 8" x1="280" y2="140" transform="translate(392.5 452.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.56"/>
+    <line id="Line_9" data-name="Line 9" x2="1" y2="279" transform="translate(531.5 383.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.56"/>
+    <text id="Arms_" data-name="Arms
+
+" transform="translate(516 364)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Arms</tspan></text>
+    <text id="Core_" data-name="Core
+
+" transform="translate(516 664)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Core</tspan></text>
+    <text id="Cardio_" data-name="Cardio
+" transform="translate(362 428)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Cardio</tspan></text>
+    <text id="Shoulders_" data-name="Shoulders
+" transform="translate(345 598)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Shoulders</tspan></text>
+    <text id="Progress_" data-name="Progress
+" transform="translate(356 705)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Progress</tspan></text>
+    <text id="Back_" data-name="Back
+
+" transform="translate(671 428)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Back</tspan></text>
+    <text id="Legs_" data-name="Legs
+
+" transform="translate(671 598)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="12">Legs</tspan></text>
+    <path id="Path_721" data-name="Path 721" d="M8042.5,4076.3c2.406,4.523,101.707,79.484,101.707,79.484l-21.755,88.962-78.838,44.373-97.147-33.388-24.34-110.5Z" transform="translate(-7511 -3684)" fill="#61dbfb" stroke="#4a65cf" stroke-width="1" opacity="0.51"/>
+    <g id="Rectangle_258" data-name="Rectangle 258" transform="translate(335 708)" fill="#3b8092" stroke="#707070" stroke-width="1">
+      <rect width="13" height="13" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="12" height="12" rx="2.5" fill="none"/>
+    </g>
+    <text id="Goals_" data-name="Goals
+" transform="translate(510 705)" fill="#fff" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Goals</tspan></text>
+    <path id="Path_722" data-name="Path 722" d="M8042.5,4086.875l-111,63.3,3.314,110.519,108.321,41.884,118.094-37.124-15.319-109.812Z" transform="translate(-7511 -3684)" fill="#334a52" stroke="#55565e" stroke-width="1" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <g id="Rectangle_259" data-name="Rectangle 259" transform="translate(489 708)" fill="#182124" stroke="#707070" stroke-width="1">
+      <rect width="13" height="13" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="12" height="12" rx="2.5" fill="none"/>
+    </g>
+  </g>
+</svg>
