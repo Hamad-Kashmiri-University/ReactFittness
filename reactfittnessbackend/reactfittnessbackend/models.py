@@ -8,6 +8,11 @@ class profile(models.Model):
     
     def __str__(self):
         return self.name
+
+class caloriemodel(models.Model):
+    calorienum = models.CharField(max_length=4)
     
+    def __str__(self):
+        return self.calorienum
 
 #Example of a table in our db to be used in profile page, we use this table to connect to the api

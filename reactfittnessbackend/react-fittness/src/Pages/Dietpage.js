@@ -1,7 +1,10 @@
+import React from 'react'
+import Recipe from '../Components/Recipe'
+
 function Dietpage() {
   return (
-    <div> 
-      <h1> diet </h1>
+    <div>
+    <Recipe /> 
       </div>
   );
 }

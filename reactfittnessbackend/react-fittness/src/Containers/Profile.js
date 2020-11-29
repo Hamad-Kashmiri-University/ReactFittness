@@ -15,6 +15,7 @@ import areagraph from '../Assets/areagraph.svg'
 //         />
 //     </div>
 // }
+
 class Profile extends React.Component {
     constructor(props){
         super(props);
