@@ -7,3 +7,4 @@ class LeadSerializer(serializers.ModelSerializer):
         fields = ('name','maxHR','stepcount','weight')
 
 #serialiser lets us convert database table information into readable json for the api
+#import rest framework classes and define the fields we want in the api

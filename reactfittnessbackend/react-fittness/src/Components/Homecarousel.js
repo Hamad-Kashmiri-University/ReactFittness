@@ -14,7 +14,7 @@ export default class Homecarousel extends Component {
     config: config.gentle
   };
   // store the library carousel functions in a state variable to be manipulated when we need
-
+  //gotoslide is set to 0 and define, offset radius defines how many items we see in the carousel, config is the animation style, shownavigation is for the carousel buttons
   slides = [
     {
       key: uuidv4(),
@@ -45,8 +45,8 @@ export default class Homecarousel extends Component {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });
   
-// generate a list of carousel components with uuids, (unique keys), and using map which is like a for loop apply a slide animation and setState so the components slide 
-// to the correct place onclick
+// generate a list of carousel components with uuids, (unique keys), and using map which is like a for loop apply all  the slides to the imported carousel, gotoslide is set to the index of the slide clicked
+// the onclick listener is to ensure navigation works correctly
 
   render() {
     return (

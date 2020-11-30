@@ -9,3 +9,4 @@ function Dietpage() {
   );
 }
 export default Dietpage
+// renders the recipe app on the diet page

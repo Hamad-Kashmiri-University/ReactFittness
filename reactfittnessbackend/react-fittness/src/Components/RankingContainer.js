@@ -11,6 +11,7 @@ import rankheader from '../Assets/rankheader.png'
 import Ranking from '../Components/Ranking'
 import leaderboard from '../Assets/leaderboard.svg'
 
+// this is the html that sets up the rank page , it consists of html with css classes to define the layout and the hover animation for rank 1 on the leaderboard image
 function RankingContainer() {
     return (
       <div className= "container"> 

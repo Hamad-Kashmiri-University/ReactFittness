@@ -9,6 +9,7 @@ function Profilepage() {
   );
 }
 export default Profilepage
+// renders the profile data component to the profile page
 /*
 import logo from './logo.svg';
 import './App.css';

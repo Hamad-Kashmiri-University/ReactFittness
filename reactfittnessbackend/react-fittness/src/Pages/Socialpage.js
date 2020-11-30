@@ -11,3 +11,5 @@ function Socialpage() {
     );
   }
   export default Socialpage
+
+  // renders the ranking container which contains the components for the ranking page

@@ -13,7 +13,7 @@ const Recipe = () => {
     // the data type in the brackets define the type for the variable
     const [search, setSearch] = useState('')
     // defingin the string for the search bar
-    const [query, setQuery] = useState('chicken')
+    const [query, setQuery] = useState('salad')
     //query state is added to ensure page updates only when an entire string is submitted in the search bar because, search updates after every letter is typed, and the api allows only 10 requests per minute
     useEffect(() =>{
          getrecipes() 
@@ -51,7 +51,7 @@ const Recipe = () => {
             <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
             {/* call update search for input in the search bar, and update search updates the state of our search var to be whatever the user input is */}
 
-            <button className="search-button" type="submit">hello
+            <button className="search-button" type="submit">Search
             </button>
         </form>
         {/* map over objects in recipes array */}
