@@ -2,6 +2,7 @@
 Implementation of prototype in 6012CEM
 
 *Below is a link to a video downloaad for a runthrough of the features*
+(play at 2x speed)
 
 https://drive.google.com/file/d/1Y80CKgEplBilJhtoZdvimnE4gqSKyIh0/view?usp=sharing
 
